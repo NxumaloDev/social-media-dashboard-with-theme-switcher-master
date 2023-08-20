@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Mandlakazi Nxumalo]</title>
+</head>
+<body class="body">
+  <main>
+    <div class="container">
+      <div class="dashboard">
+        <div class="text">
+          <div class="heading">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+          </div>
+
+          <div class="flex">
+            <p>Dark Mode</p>                
+            <div class="toggle-button" onclick="themeChange()">
+              <div class="toggle-circle"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="dashboard-grid-container">
+          <div class="information facebook grid">
+            <div class="flex">
+              <img src="./images/icon-facebook.svg" alt="facebook icon">
+              <p>@nathanf</p>
+            </div>
+            <div class="number-followers">
+              <h2>1987</h2>
+              <p>Followers</p>
+            </div>
+            <div class="flex">
+              <img src="./images/icon-up.svg" alt="increase icon">
+              <p>12 Today</p>
+            </div>
+          </div>
+          <div class="information twitter grid">
+            <div class="flex">
+              <img src="./images/icon-twitter.svg" alt="twitter icon">
+              <p>@nathanf</p>
+            </div>
+            <div class="number-followers">
+              <h2>1044</h2>
+              <p>Followers</p>
+            </div>
+            <div class="flex">
+              <img src="./images/icon-up.svg" alt="increase icon">
+              <p>99 Today</p>
+            </div>
+          </div>
+          <div class="information instagram grid">
+            <div class="flex">
+              <img src="./images/icon-instagram.svg" alt="instagram icon">
+              <p>@realnathanf</p>
+            </div>
+            <div class="number-followers">
+              <h2>11k</h2>
+              <p>Followers</p>
+            </div>
+            <div class="flex">
+              <img src="./images/icon-up.svg" alt="increase icon">
+              <p>1099 Today</p>
+            </div>
+          </div>
+          <div class="information youtube grid">
+            <div class="flex">
+              <img src="./images/icon-youtube.svg" alt="youtube icon">
+              <p>Nathan F.</p>
+            </div>
+            <div class="number-followers">
+              <h2>8239</h2>
+              <p>Subscribers</p>
+            </div>
+            <div class="flex">
+              <img src="./images/icon-down.svg" alt="decrese icon">
+              <p>144 Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Overview - Today</h3>
+      <div class="overview">
+        <div class="facebook-overview">
+          <div class="information views">
+            <div class="flex">
+              <p>Page Views</p>
+              <img src="./images/icon-facebook.svg" alt="facebook icon">
+            </div>
+            <div class="flex">
+              <p>87</p>
+
+              <div class="percentage">
+                <img src="./images/icon-up.svg" alt="increase icon">
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <div class="information likes">
+            <div class="flex">
+              <p>Likes</p>
+              <img src="./images/icon-facebook.svg" alt="facebook icon">
+            </div>
+            <div class="flex">
+              <p>52</p>
+
+              <div class="percentage">
+                <img src="./images/icon-down.svg" alt="decreased icon">
+                <p>2%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="instagram-overview">
+          <div class="views information">
+              <div class="flex">
+                <p>Likes</p>
+                <img src="./images/icon-instagram.svg" alt="instagram icon">
+              </div>
+              <div class="flex">
+                <p>5462</p>
+
+                <div class="percentage">
+                <img src="./images/icon-up.svg" alt="increase icon">
+                  <p>2257%</p>
+                </div>
+              </div>
+            </div>
+          <div class="likes information">
+              <div class="flex">
+                <p>Profile Views</p>
+                <img src="./images/icon-instagram.svg" alt="instagram icon">
+              </div>
+              <div class="flex">
+                <p>52k</p>
+
+                <div class="percentage">
+                  <img src="./images/icon-up.svg" alt="increase icon">
+                  <p>1375%</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="twitter-overview">
+          <div class="information views">
+            <div class="flex">
+              <p>Retweets</p>
+              <img src="./images/icon-twitter.svg" alt="twitter icon">
+            </div>
+            <div class="flex">
+              <p>117</p>
+
+              <div class="percentage">
+                <img src="./images/icon-up.svg" alt="increase icon">
+                <p>303%</p>
+            </div>
+          </div>
+          </div>
+          <div class="information likes">
+            <div class="flex">
+              <p>Likes</p>
+              <img src="./images/icon-twitter.svg" alt="twitter icon">
+            </div>
+            <div class="flex">
+              <p>507</p>
+
+              <div class="percentage">
+                <img src="./images/icon-up.svg" alt="increase icon">
+                <p>553%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="youtube-overview">
+          <div class="information views">
+            <div class="flex">
+              <p>Page Views</p>
+              <img src="./images/icon-youtube.svg" alt="youtube icon">
+            </div>
+            <div class="flex">
+              <p>107</p>
+
+              <div class="percentage">
+                <img src="./images/icon-down.svg" alt="decrese icon">
+                <p>19%</p>
+              </div>
+            </div>
+          </div>
+          <div class="information likes">
+            <div class="flex">
+              <p>Likes</p>
+              <img src="./images/icon-youtube.svg" alt="youtube icon">
+            </div>
+            <div class="flex">
+              <p>1407</p>
+
+              <div class="percentage">
+                <img src="./images/icon-down.svg" alt="decrese icon">
+                <p>12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
